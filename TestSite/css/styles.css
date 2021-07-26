@@ -1,0 +1,89 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+    border-radius: 0px;
+    background-color: rgb(255, 187, 0);
+    border: 0px;
+}
+#logo-image{
+    background: url(../images/Govinda-Logo-6-2015-bunt.png) no-repeat;
+    width: 150px ;
+    height: 150px;
+    margin: 10px 15px 10px 0px;
+    background-size: 150px;
+}
+#logo{
+    float: left;
+}
+.navbar-brand a:hover, .navbar-brand a{
+    text-decoration: none;
+}
+.navbar-brand h1{
+    color: #557c3e;
+    text-transform: uppercase;    
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 1px #222;
+}
+.navbar-brand p{
+    color:#000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    margin-top: 15px;
+    font-family: 'Oxygen', sans-serif;
+}
+.navbar-brand span{
+    vertical-align: middle;
+}
+#listitems a{
+    text-align: center;
+    color: #951c49;
+}
+#listitems a:hover{
+    color: blanchedalmond;
+}
+#listitems a span{
+    font-size: 1.8em;
+}
+#phoneno{
+    
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border:1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+}
+@media(min-width:992px) and (max-width:1199px){
+    #logo-image{
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0px;
+        background-size: 100px;
+    }
+    .navbar-brand p{
+        margin-top: 8px;
+    }
+}
+@media(max-width:767px){
+    .navbar-brand{
+        height:80px;
+    }
+    .navbar-brand h1{
+        font-size: 4vw;
+    } 
+    .navbar-brand p{
+        margin-top: 3px;
+        font-size: 2vw;
+    }
+    .navbar-brand p img{
+        width: 6vw;
+        height:6vw;
+        background-size:6vw;
+    };
+}
