@@ -51,8 +51,8 @@ a, a:hover{
     background-color: rgb(18, 117, 9);
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    margin: 10px;
     padding: 20px;
+
 }
 @media(min-width:767px){
     #collapsible-nav{
