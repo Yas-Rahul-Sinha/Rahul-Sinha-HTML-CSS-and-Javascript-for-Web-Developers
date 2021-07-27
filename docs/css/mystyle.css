@@ -26,7 +26,6 @@ a, a:hover{
 }
 #collapsible-nav li{
     background-color: rgb(18, 117, 9);
-    text-align: center;
 }
 #collapsible-nav li:nth-child(2){
     border: 1px solid black;
@@ -39,7 +38,6 @@ a, a:hover{
     color: black;
 }
 #title{
-    text-align: center;
     font-weight: bold;
     color: rgb(8, 8, 68);
 }
@@ -47,7 +45,6 @@ a, a:hover{
     font-size: large;
     font-family:'Hammersmith One', sans-serif;
     color: black;
-    text-align: center;
     font-weight: bold;
 }
 #main-content{
